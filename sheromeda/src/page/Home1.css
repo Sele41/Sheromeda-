@@ -1,0 +1,242 @@
+.img2 {
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.premium {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(39, 66, 98);
+}
+
+.slogan {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.header {
+
+    padding-bottom: 3%;
+    box-shadow: 3px 4px 3px rgba(90, 88, 84, 0.6);
+}
+
+.more {
+
+    display: flex;
+    justify-content: center;
+    width: 7%;
+
+    margin-left: 86%;
+    margin-top: 40px;
+
+}
+
+.more1 {
+    display: none;
+}
+
+.c-card {
+    box-shadow: 3px 4px 3px rgba(90, 88, 84, 0.6);
+    height: 250px;
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.store {
+    font-size: 10px;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.btn1 {
+    background: green;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 25%;
+    padding: 5%;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn2 {
+    background: green;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 50%;
+    padding: 5%;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btnbox {
+    display: flex;
+
+}
+
+.Premium {
+    font-weight: bold;
+    color: rgb(136, 136, 0);
+    width: 100%;
+    font-size: 15px;
+    margin-left: 0%;
+    padding: 5%;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 10px;
+}
+
+.contianer {
+    /* box-shadow: 6px 6px 15px rgba(90, 88, 84, 0.6); */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+
+    border: none;
+    height: 5px;
+    background-color: #000000;
+
+
+}
+
+.hr {
+    width: 100%;
+}
+
+
+
+.c-card:hover {
+    transform: scale(1.02)
+}
+
+@media (max-width:801px) {
+    .img2 {
+        height: 150px;
+        width: 90%;
+        object-fit: contain;
+        margin-left: 40px;
+
+    }
+
+    .store {
+        font-size: 7px;
+    }
+
+    .price {
+        font-size: 7px;
+        font-weight: bold;
+
+    }
+
+    .btn1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: -7px;
+        font-size: 10px;
+        margin-left: 30%;
+        background: green;
+        color: white;
+        border: solid 1px white;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .btn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: -7px;
+        font-size: 10px;
+        margin-left: 60%;
+        background: green;
+        color: white;
+        border: solid 1px white;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .btnbox {
+        display: flex;
+
+    }
+
+    .Premium {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: -7px;
+        font-size: 9px;
+        font-weight: bold;
+        color: rgb(136, 136, 0);
+        border: solid 1px white;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .title {
+        font-size: 7px;
+    }
+
+    .c-card {
+        box-shadow: 3px 4px 3px rgba(90, 88, 84, 0.6);
+        height: 150px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .more1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 50%;
+
+    }
+
+    .more {
+
+        display: none;
+    }
+
+    hr {
+
+        border: none;
+        height: 5px;
+        background-color: #000000;
+
+
+    }
+
+    .hr {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
