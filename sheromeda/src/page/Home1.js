@@ -13,7 +13,7 @@ export default function Home1() {
                 <h1 className='slogan'>Embrace the Heritage, Unveil the Elegance</h1>
             </div>
             <div>
-                <h2 className='premium d-flex  justify-content-sm-start ms-4 fs-3 mt-4'>From Premium Store</h2>
+                <h2 className='premium d-flex  justify-content-sm-start ms-4 fs-3 mt-4'>From Solomon Store</h2>
                 <hr className='hr' />
                 <div className='box'>
                     <main className=''>
