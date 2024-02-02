@@ -8,7 +8,7 @@ export default function Profile() {
                 <Navbar />
             </div>
             <div>
-                <h1>Profile</h1>
+                <h1>Solomon</h1>
             </div>
         </div>
     )
