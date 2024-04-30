@@ -15,9 +15,6 @@ function App() {
         <Route path='/store' element={<Store />} />
         <Route path='/chat' element={<Chat />} />
         <Route path='/profile' element={<Profile />} />
-
-
-
       </Routes>
     </div>
   );
